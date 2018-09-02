@@ -1,6 +1,67 @@
 What's new
 ==========
 
+Release 2018.1 (September 2018)
+-------------------------------------
+
+* Fix wordings, typos, colours (Pierre de Buyl, Greg Kiar, Olav Vahtras
+  Kristian Rother)
+
+* Fix interpolation example code (Scott Staniewicz)
+
+* Fix CSS for high density displays (Gaël Varoquaux)
+
+* Generate indexing figures with PyX (Gert Ingold)
+
+* Warn clearly against the use of Python 2 (Bruno Hanzen)
+
+* Update external links (Bruno Hanzen)
+
+* Update versions of dependencies: sphinx-gallery, pandas, statsmodels
+  (Gaël Varoquaux)
+
+
+Release 2017.1 (October 2017)
+-------------------------------------
+
+* Update optimization chapter (Michael Hartmann, Gaël Varoquaux)
+
+* Update SymPy chapter (Vince Knight)
+
+* Update advanced NumPy (Bartosz Teleńczuk)
+
+* Update scikit-learn chapter (Gaël Varoquaux)
+
+* Update SciPy chapter (Gaël Varoquaux)
+
+* Make '>>>' in the prompts unselectable (Pierre de Buyl)
+
+* Use common package requirements for pip and conda and improve the build
+  instructions (Gert-Ludwig Ingold, Vince Knight, Pierre de Buyl)
+
+* Set up Circle CI (Loïc Estève)
+
+* Improved support for Python 3 integer divisions and calls to print (Loïc
+  Estève, Gert-Ludwig Ingold, Pierre de Buyl, Gaël Varoquaux)
+
+* Change test runner to pytest (Pierre de Buyl)
+
+* Replace the plot directive by sphinx-gallery (Gert-Ludwig Ingold)
+
+Release 2016.1 (September 2016)
+-------------------------------------
+
+* Rework of intro chapter (Gaël Varoquaux)
+
+* Integrate sphinx-gallery: examples are now Jupyter notebooks (Gaël
+  Varoquaux, Gert-Ludwig Ingold, Óscar Nájera)
+
+* Better Python 3 tests and support (Gert-Ludwig Ingold)
+
+* Adapt examples to Matplotlib 1.5 (Gaël Varoquaux)
+
+* Modernize numpy chapter (Bartosz Telenczuk)
+
 Release 2015.3 (November 2015)
 -------------------------------------
 

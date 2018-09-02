@@ -51,6 +51,8 @@ Listed by alphabetical order
 
 - arunpersaud
 
+- Lilian Besson
+
 - Matthew Brett
 
 - Lars Buitinck
@@ -67,13 +69,19 @@ Listed by alphabetical order
 
 - David Cournapeau
 
-- egens
+- Török Edwin
 
-- Andre Espaze
+- egens
 
 - André Espaze
 
+- Loïc Estève
+
 - Corey Farwell
+
+- Olivier Georg
+
+- Daniel Gerigk
 
 - Robert Gieseke
 
@@ -87,7 +95,11 @@ Listed by alphabetical order
 
 - Valentin Haenel
 
+- Bruno Hanzen
+
 - Pierre Haessig
+
+- Michael Hartmann
 
 - Jonathan Helmus
 
@@ -97,15 +109,39 @@ Listed by alphabetical order
 
 - Zbigniew Jędrzejewski-Szmek
 
+- Thouis (Ray) Jones
+
+- jorgeprietoarranz
+
 - kikocorreoso
 
+- Greg Kiar
+
+- Vince Knight
+
+- LFP6
+
+- John McLaughlin
+
 - mhemantha
+
+- Mohammad
+
+- negm
+
+- John B Nelson
 
 - nicoguaro
 
 - Sergio Oller
 
+- Theofilos Papapanagiotou
+
+- patniharshit
+
 - Fabian Pedregosa
+
+- Philippe Pepiot
 
 - Tiago M. D. Pereira
 
@@ -117,13 +153,31 @@ Listed by alphabetical order
 
 - Maximilien Riehl
 
+- Kristian Rother
+
+- Nicolas P. Rougier
+
 - Nicolas Rougier
+
+- Rutzmoser
+
+- João Felipe Santos
 
 - Helen Sherwood-Taylor
 
+- Scott Staniewicz
+
+- Shoeboxam
+
 - Simon
 
+- solarjoe
+
+- ssmiller
+
 - strpeter
+
+- Bartosz Telenczuk
 
 - Wes Turner
 

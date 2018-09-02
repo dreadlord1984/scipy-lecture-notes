@@ -110,7 +110,7 @@ NumPy Reference documentation
      Help on built-in function array in module numpy.core.multiarray:
      <BLANKLINE>
      array(...)
-         array(object, dtype=None, copy=True, order=None, subok=False, ...
+         array(object, dtype=None, ...
 
 
 - Looking for something:
@@ -347,7 +347,7 @@ There are also other types:
 
   .. sourcecode:: pycon
 
-        >>> f = np.array(['Bonjour', 'Hello', 'Hallo',])
+        >>> f = np.array(['Bonjour', 'Hello', 'Hallo'])
         >>> f.dtype     # <--- strings containing max. 7 letters  # doctest: +SKIP
         dtype('S7')
 
@@ -414,27 +414,34 @@ Or, if you have enabled interactive plots with ``%matplotlib``:
 
 * **1D plotting**:
 
-  .. sourcecode:: pycon
+.. sourcecode:: pycon
 
-    >>> x = np.linspace(0, 3, 20)
-    >>> y = np.linspace(0, 9, 20)
-    >>> plt.plot(x, y)       # line plot    # doctest: +SKIP
-    [<matplotlib.lines.Line2D object at ...>]
-    >>> plt.plot(x, y, 'o')  # dot plot    # doctest: +SKIP
-    [<matplotlib.lines.Line2D object at ...>]
+  >>> x = np.linspace(0, 3, 20)
+  >>> y = np.linspace(0, 9, 20)
+  >>> plt.plot(x, y)       # line plot    # doctest: +SKIP
+  [<matplotlib.lines.Line2D object at ...>]
+  >>> plt.plot(x, y, 'o')  # dot plot    # doctest: +SKIP
+  [<matplotlib.lines.Line2D object at ...>]
 
-  .. plot:: pyplots/numpy_intro_1.py
+.. image:: auto_examples/images/sphx_glr_plot_basic1dplot_001.png
+    :width: 40%
+    :target: auto_examples/plot_basic1dplot.html
+    :align: center
 
 * **2D arrays** (such as images):
 
-  .. sourcecode:: pycon
+.. sourcecode:: pycon
 
-    >>> image = np.random.rand(30, 30)
-    >>> plt.imshow(image, cmap=plt.cm.hot)    # doctest: +SKIP
-    >>> plt.colorbar()    # doctest: +SKIP
-    <matplotlib.colorbar.Colorbar instance at ...>
+  >>> image = np.random.rand(30, 30)
+  >>> plt.imshow(image, cmap=plt.cm.hot)    # doctest: +ELLIPSIS
+  <matplotlib.image.AxesImage object at ...>
+  >>> plt.colorbar()    # doctest: +ELLIPSIS
+  <matplotlib.colorbar.Colorbar object at ...>
 
-  .. plot:: pyplots/numpy_intro_2.py
+.. image:: auto_examples/images/sphx_glr_plot_basic2dplot_001.png
+    :width: 50%
+    :target: auto_examples/plot_basic2dplot.html
+    :align: center
 
 .. seealso:: More in the: :ref:`matplotlib chapter <matplotlib>`
 
@@ -748,7 +755,7 @@ Using boolean masks
 .. sourcecode:: pycon
 
     >>> np.random.seed(3)
-    >>> a = np.random.random_integers(0, 20, 15)
+    >>> a = np.random.randint(0, 21, 15)
     >>> a
     array([10,  3,  8,  0, 19, 10, 11,  9, 10,  6,  0, 20, 12,  7, 14])
     >>> (a % 3 == 0)
@@ -796,7 +803,7 @@ New values can be assigned with this kind of indexing:
 .. tip::
 
   When a new array is created by indexing with an array of integers, the
-  new array has the same shape than the array of integers:
+  new array has the same shape as the array of integers:
 
   .. sourcecode:: pycon
 
@@ -815,12 +822,12 @@ The image below illustrates various fancy indexing applications
 
 .. only:: latex
 
-    .. image:: images/numpy_fancy_indexing.png
+    .. image:: ../../pyximages/numpy_fancy_indexing.pdf
         :align: center
 
 .. only:: html
 
-    .. image:: images/numpy_fancy_indexing.png
+    .. image:: ../../pyximages/numpy_fancy_indexing.png
         :align: center
         :width: 80%
 
